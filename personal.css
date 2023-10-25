@@ -1,0 +1,148 @@
+& {
+    background: black;
+}
+
+h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 600ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(255, 255, 0);
+    outline: none;
+}
+  
+h1:hover {
+    letter-spacing: 1px;
+} 
+
+h4 {
+    color: lightgray;
+}
+
+h2 {
+    border: 5px solid white;
+    /* width: 46%; */
+    color: yellow;
+}
+
+.school-header {
+    width: 47%;
+}
+
+.sports-header {
+    width: 47%;
+}
+
+h3 {
+    color: lightgray;
+    display: flex;
+    width: 47%;
+}
+.backdrop {
+    z-index: -1;
+    position: fixed;
+    margin-top: -12%;
+    display: flex;
+    margin-left: 47%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    align-items: flex-start;
+    margin-left: -87%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 46.8%;
+    background-color: black;
+    /* position: fixed; */
+    margin-top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;    
+}
+
+a:hover {
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: lightgray;
+}
+
+.hockey {
+    height: 25%;
+    width: 24.5%;
+}
+
+.hockey-text {
+    display: flex;
+    width: 46.5%;
+    direction: rtl;
+    margin-top: -20%;
+}
+
+.golf {
+    margin-top: 6%;
+    width: 46.8%;
+}
+
+.image-container-career {
+    display: flex;
+    text-align: center; 
+}
+
+.this-is-the-end {
+    width: auto;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.image-container-school {
+    flex-direction: row;
+    align-items: left;
+}
+
+#apple {
+    flex-direction: row;
+    display: flex;
+    width: 46.8%;
+}
+
+#caps {
+    flex-direction: row;
+    display: flex;
+    width: 46.8%;
+}
+
